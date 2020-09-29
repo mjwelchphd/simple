@@ -1,0 +1,10 @@
+
+  path, err := os.Getwd()
+  if err != nil {
+      fmt.Println(err)
+  }
+  fmt.Printf("working directory-->'%s'\n\n", path)
+
+
+
+//	fmt.Fprintf(w, "Hello, this is app router\n\n%+v\n\napp route host: '%s', port: %s\n\n", r, host, port)
